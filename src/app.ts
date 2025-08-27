@@ -7,7 +7,7 @@ import router from './app/routes';
 const app: Application = express();
 
 const corsOptions = {
-  origin: ['https://mahsez.vercel.app', 'http://localhost:5173','http://192.168.0.103:5173'],
+  origin: ['https://blogger-client-ruddy.vercel.app', 'http://localhost:3000'],
   credentials: true,
 };
 
